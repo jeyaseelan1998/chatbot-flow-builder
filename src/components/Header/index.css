@@ -19,6 +19,15 @@
     color: rgb(20, 65, 188);
     font: 500 16px/1.2 "Roboto";
     cursor: pointer;
+    transition: font-size .5s ease-in-out;
+}
+
+.save-changes-btn:active {
+    outline: 3px solid rgb(45, 186, 242);
+}
+
+.save-changes-btn:hover {
+    font-size: 18px;
 }
 
 .save-changes-btn:hover {
