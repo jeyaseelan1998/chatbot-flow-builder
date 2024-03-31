@@ -1,0 +1,6 @@
+.panel-nodes-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+    display: flex;
+}

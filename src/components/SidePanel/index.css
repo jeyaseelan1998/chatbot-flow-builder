@@ -1,0 +1,9 @@
+.panel-section {
+    overflow-y: auto;
+    height: 90vh;
+    width: 450px;
+    border-top: 1px solid #00000030;
+    border-left: 1px solid #00000030;
+    border-bottom: 1px solid #00000030;
+    background: #FFFFFF;
+}

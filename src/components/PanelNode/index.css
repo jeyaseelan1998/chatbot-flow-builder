@@ -1,0 +1,21 @@
+.panel-nodes-list li {
+    width: 190px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    border: 2px solid rgb(10, 123, 228);
+    border-radius: 12px;
+    color: rgb(10, 123, 228);
+}
+
+.panel-node-name {
+    margin: 8px 0 0;
+    font: 500 18px/1.2 "Roboto";
+}
+
+.panel-nodes-list .msg-icon {
+    font-size: 25px;
+}

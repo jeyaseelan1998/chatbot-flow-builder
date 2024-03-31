@@ -1,0 +1,7 @@
+.home-container {
+    min-height: 100vh;
+}
+
+.react-flow-side-panel-container {
+    display: flex;
+}

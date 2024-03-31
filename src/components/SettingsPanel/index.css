@@ -1,0 +1,45 @@
+.settings-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-bottom: 1px solid #00000030;
+}
+
+.settings-header .back-btn {
+    padding: 8px 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.back-arrow-icon {
+    font-size: 18px;
+}
+
+.settings-header p {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font: 400 18px/1.2 "Roboto";
+    color: #191919;
+}
+
+.settings-form {
+    padding: 35px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-form label {
+    font: 400 16px/1.2 "Roboto";
+    margin-bottom: 15px;
+    color: #00000095;
+}
+
+.settings-form textarea {
+    font: 400 16px/1.2 "Roboto";
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+}

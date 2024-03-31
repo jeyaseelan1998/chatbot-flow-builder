@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+
+import { BrowserRouter } from 'react-router-dom'
+import { ReactFlowProvider } from 'reactflow';
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
+import ReactFlowContextProvider from './context/ReactFlowContext/ReactFlowContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <ReactFlowProvider>
+        <ReactFlowContextProvider>
+          <DndProvider backend={HTML5Backend}>
+            <App />
+          </DndProvider>
+        </ReactFlowContextProvider>
+      </ReactFlowProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,0 +1,26 @@
+.header-container {
+    background-color: #F3F3F3;
+    padding: 12px;
+    position: relative;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.save-changes-btn {
+    margin-left: auto;
+    height: 43px;
+    width: 170px;
+    border: 1px solid rgb(20, 65, 188);
+    border-radius: 8px;
+    color: rgb(20, 65, 188);
+    font: 500 16px/1.2 "Roboto";
+    cursor: pointer;
+}
+
+.save-changes-btn:hover {
+    background-color: #fff;
+}
